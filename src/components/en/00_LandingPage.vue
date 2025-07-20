@@ -15,7 +15,7 @@
       <div class="col-12 col-lg-4 order-lg-2 text-center">
         <!-- Hero Avatar -->
         <div class="hero-avatar">
-          <img src="@/assets/gary.png" alt="" />
+          <img src="@/assets/gary.jpg" alt="" />
         </div>
       </div>
       <div class="col-12 col-lg-4 order-lg-1">
