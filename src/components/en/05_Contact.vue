@@ -22,12 +22,12 @@
             </div>
             <div class="col-12 col-md-6">
               <h6 class="sm-heading">Whatsapp:</h6>
-              <a href="https://api.whatsapp.com/send/?phone=59176787696&text=Hi+Gary" target="_blank"
+              <a href="https://api.whatsapp.com/send/?phone=59167032056&text=Hi+Gary" target="_blank"
                 class="button button-dot" @mouseenter="$store.commit('expandCursor')"
                 @mouseleave="$store.commit('expandCursorLeave')">
                 <h5 class="mb-0">
                   <i class="bi bi-whatsapp"></i>
-                  &nbsp;+591 76787696
+                  &nbsp;+591 67032056
                 </h5>
               </a>
             </div>

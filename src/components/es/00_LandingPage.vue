@@ -45,7 +45,7 @@
             <h6 class="sm-heading">Portafolio</h6>
             <ul class="list-inline">
               <li>
-                <a class="button-circle button-circle-sm" href="https://github.com/gcoddev" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://github.com/garycdev" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-github"></i>
                   <i class="bi bi-github"></i>
@@ -59,7 +59,7 @@
                 </a>
               </li> -->
               <li>
-                <a class="button-circle button-circle-sm expand" href="https://www.linkedin.com/in/gcoddev"
+                <a class="button-circle button-circle-sm expand" href="https://www.linkedin.com/in/garycdev7"
                   target="_blank" @mouseenter="$store.commit('expandCursor')"
                   @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-linkedin"></i>
@@ -105,35 +105,35 @@
               </li> -->
               <!-- <li>
                 <a class="button-circle button-circle-sm"
-                  href="https://api.whatsapp.com/send/?phone=59176787696&text=Hi+Gary" target="_blank"
+                  href="https://api.whatsapp.com/send/?phone=59167032056&text=Hi+Gary" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-whatsapp"></i>
                   <i class="bi bi-whatsapp"></i>
                 </a>
               </li> -->
               <li>
-                <a class="button-circle button-circle-sm" href="https://www.youtube.com/@gcoddev" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://www.youtube.com/@garycdev" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-youtube"></i>
                   <i class="bi bi-youtube"></i>
                 </a>
               </li>
               <li>
-                <a class="button-circle button-circle-sm" href="https://www.facebook.com/gcoddev/" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://www.facebook.com/garycdev/" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-facebook"></i>
                   <i class="bi bi-facebook"></i>
                 </a>
               </li>
               <li>
-                <a class="button-circle button-circle-sm" href="https://www.instagram.com/garycdev7" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://www.instagram.com/garycdev" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-instagram"></i>
                   <i class="bi bi-instagram"></i>
                 </a>
               </li>
               <li>
-                <a class="button-circle button-circle-sm" href="https://x.com/gcoddev" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://x.com/garycdev" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-twitter-x"></i>
                   <i class="bi bi-twitter-x"></i>
