@@ -249,10 +249,10 @@ export default {
         // document.getElementById("cursor-type").style.display = "none";
         document
           .getElementById("a-lang")
-          .setAttribute("onclick", "redirectTo('/es')");
-        document
-          .getElementById("a-index")
           .setAttribute("onclick", "redirectTo('/')");
+        // document
+        //   .getElementById("a-index")
+        //   .setAttribute("onclick", "redirectTo('/')");
       }
     },
   },

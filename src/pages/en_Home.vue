@@ -26,13 +26,13 @@ export default {
     contact: contact,
   },
   methods: {
-    async postVisita() {
-      try {
-        await this.axios.post("/visitas");
-      } catch (error) {
-        console.log(error);
-      }
-    },
+    // async postVisita() {
+    //   try {
+    //     await this.axios.post("/visitas");
+    //   } catch (error) {
+    //     console.log(error);
+    //   }
+    // },
   },
   created() {
     document.getElementsByTagName("html")[0].setAttribute("lang", "en");
@@ -55,7 +55,7 @@ export default {
     document.getElementsByTagName("body")[0].classList.remove("loaded");
     document.getElementById("a-index").removeAttribute("onclick")
 
-    this.postVisita();
+    // this.postVisita();
   },
 };
 </script>
