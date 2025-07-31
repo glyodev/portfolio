@@ -38,8 +38,8 @@ export default {
     document.getElementsByTagName("html")[0].setAttribute("lang", "en");
     document.getElementById("btn-lang").innerHTML = "🇺🇸";
     document.getElementById("btn-lang").setAttribute("data-text", "🇺🇸");
-    document.getElementById("btn-contact").innerHTML = "CONTACT";
-    document.getElementById("btn-contact").setAttribute("data-text", "CONTACT");
+    document.getElementById("btn-contact").innerHTML = "CONTACT ME";
+    document.getElementById("btn-contact").setAttribute("data-text", "CONTACT ME");
     document.getElementById("btn-menu").innerHTML = "MENU";
     document.getElementById("btn-menu").setAttribute("data-text", "MENU");
 

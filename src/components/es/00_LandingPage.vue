@@ -68,7 +68,7 @@
               </li>
               <li>
                 <a class="button-circle button-circle-sm expand"
-                  href="https://www.canva.com/design/DAGG8f67adw/LRuD_Wt3nDhk6tffS6refw/view?utm_content=DAGG8f67adw&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                  href="https://garycdev.my.canva.site/"
                   target="_blank" @mouseenter="$store.commit('expandCursor')"
                   @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-file-person"></i>
@@ -197,7 +197,7 @@ export default {
   name: "LandingPage",
   data() {
     return {
-      name: "Gary Apaza",
+      name: "Hola!\nSoy Gary",
       index: 0,
       projects: proys,
     };
