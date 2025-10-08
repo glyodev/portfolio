@@ -6,6 +6,14 @@
 export default {
   name: "AppView",
   methods: {
+    async postVisita() {
+      try {
+        const res = await this.axios.post("/visitas");
+        console.log(res.data);
+      } catch (error) {
+        console.log(error);
+      }
+    },
     async getStatus() {
       try {
         const res = await this.axios.get("/");
@@ -23,7 +31,7 @@ export default {
           "<div class='preloader'><div><span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span></div></div>"
         );
     }
-    this.getStatus();
+    this.postVisita();
   },
 };
 </script>
