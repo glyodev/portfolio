@@ -21,7 +21,7 @@
       <div class="col-12 col-lg-4 order-lg-1">
         <div class="row g-4 g-lg-5">
           <div class="col-12 col-md-4 col-lg-12">
-            <h6 class="sm-heading">Biografía</h6>
+            <h6 class="sm-heading">Biografia</h6>
             <p>
               Estudiante autodidacta, instructor y desarrollador.
               Soy una persona responsable, me gusta aprender, especialmente compartir mi conocimiento.
