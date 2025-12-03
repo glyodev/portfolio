@@ -40,7 +40,7 @@
         "name": "Portfolio web",
         "nombre": "Portafolio web",
         "img": "assets/projects/pportfolio.png",
-        "url": "https://garycdev.com",
+        "url": "https://glyo.dev",
         "tags": [
             "VueJS",
             "NestJS"
@@ -52,7 +52,7 @@
         "name": "MODO-GYM Management System",
         "nombre": "Sistema de Administración MODO-GYM",
         "img": "assets/projects/pmodo-gym.png",
-        "url": "https://modo-gym.garycdev.com",
+        "url": "https://modo-gym.glyo.dev",
         "tags": [
             "laravel",
             "MariaDB"
@@ -64,7 +64,7 @@
         "name": "Pharmacy Management System",
         "nombre": "Sistema de Administración de Farmacia",
         "img": "assets/projects/pbuen-doctor.png",
-        "url": "https://el-buen-doctor.garycdev.com",
+        "url": "https://el-buen-doctor.glyo.dev",
         "tags": [
             "laravel",
             "MariaDB"

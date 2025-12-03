@@ -12,11 +12,11 @@
           <div class="row g-4 g-lg-5">
             <div class="col-12 col-md-6">
               <h6 class="sm-heading">Email:</h6>
-              <a href="mailto:contact@garycdev.com?subject=Mensaje" target="_blank" class="button button-dot"
+              <a href="mailto:contact@glyo.dev?subject=Mensaje" target="_blank" class="button button-dot"
                 @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                 <h5 class="mb-0 text-lowercase">
                   <i class="bi bi-envelope"></i>
-                  &nbsp;contact@garycdev.com
+                  &nbsp;contact@glyo.dev
                 </h5>
               </a>
             </div>
@@ -103,7 +103,7 @@ export default {
       const name = this.name
       const message = this.message
 
-      const correo = `mailto:contact@garycdev.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('De: ' + name + '\n\n' + message)}`;
+      const correo = `mailto:contact@glyo.dev?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('De: ' + name + '\n\n' + message)}`;
       // console.log(correo);
 
       window.location.href = correo;
