@@ -45,7 +45,7 @@
             <h6 class="sm-heading">Portafolio</h6>
             <ul class="list-inline">
               <li>
-                <a class="button-circle button-circle-sm" href="https://github.com/glyodev" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://garydev.link/gh" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-github"></i>
                   <i class="bi bi-github"></i>
@@ -59,7 +59,7 @@
                 </a>
               </li> -->
               <li>
-                <a class="button-circle button-circle-sm expand" href="https://www.linkedin.com/in/glyodev7"
+                <a class="button-circle button-circle-sm expand" href="https://garydev.link/in"
                   target="_blank" @mouseenter="$store.commit('expandCursor')"
                   @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-linkedin"></i>
@@ -68,7 +68,7 @@
               </li>
               <li>
                 <a class="button-circle button-circle-sm expand"
-                  href="https://glyodev.my.canva.site/"
+                  href="https://garydev.link/cv"
                   target="_blank" @mouseenter="$store.commit('expandCursor')"
                   @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-file-person"></i>
@@ -112,35 +112,35 @@
                 </a>
               </li> -->
               <li>
-                <a class="button-circle button-circle-sm" href="https://www.youtube.com/@glyodev" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://garydev.link/yt" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-youtube"></i>
                   <i class="bi bi-youtube"></i>
                 </a>
               </li>
               <li>
-                <a class="button-circle button-circle-sm" href="https://www.facebook.com/glyodev/" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://garydev.link/fb" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-facebook"></i>
                   <i class="bi bi-facebook"></i>
                 </a>
               </li>
               <li>
-                <a class="button-circle button-circle-sm" href="https://www.instagram.com/glyodev" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://garydev.link/ig" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-instagram"></i>
                   <i class="bi bi-instagram"></i>
                 </a>
               </li>
               <li>
-                <a class="button-circle button-circle-sm" href="https://x.com/glyodev" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://garydev.link/x" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-twitter-x"></i>
                   <i class="bi bi-twitter-x"></i>
                 </a>
               </li>
               <li>
-                <a class="button-circle button-circle-sm" href="https://www.tiktok.com/@glyodev" target="_blank"
+                <a class="button-circle button-circle-sm" href="https://garydev.link/tt" target="_blank"
                   @mouseenter="$store.commit('expandCursor')" @mouseleave="$store.commit('expandCursorLeave')">
                   <i class="bi bi-tiktok"></i>
                   <i class="bi bi-tiktok"></i>

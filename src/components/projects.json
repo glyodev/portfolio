@@ -9,7 +9,8 @@
             "NodeJS"
         ],
         "ins": "UTIC - UPEA",
-        "url_ins": "https://utic.upea.bo"
+        "url_ins": "https://utic.upea.bo",
+        "active": true
     },
     {
         "name": "Graduate Service - API",
@@ -22,19 +23,21 @@
             "MariaDB"
         ],
         "ins": "UTIC - UPEA",
-        "url_ins": "https://utic.upea.bo"
+        "url_ins": "https://utic.upea.bo",
+        "active": false
     },
     {
         "name": "Budget Planning POA",
         "nombre": "Planificación Presupuestaria POA",
-        "img": "assets/projects/ppoa.png",
-        "url": "https://planificacion.upea.bo",
+        "img": "assets/projects/ppoa2.png",
+        "url": "https://poa.upea.bo",
         "tags": [
             "laravel",
             "MariaDB"
         ],
         "ins": "UTIC - UPEA",
-        "url_ins": "https://utic.upea.bo"
+        "url_ins": "https://utic.upea.bo",
+        "active": true
     },
     {
         "name": "Portfolio web",
@@ -46,31 +49,34 @@
             "NestJS"
         ],
         "ins": "Own",
-        "url_ins": ""
+        "url_ins": "",
+        "active": true
     },
     {
         "name": "MODO-GYM Management System",
         "nombre": "Sistema de Administración MODO-GYM",
         "img": "assets/projects/pmodo-gym.png",
-        "url": "https://modo-gym.glyo.dev",
+        "url": "https://modo-gym.garycdev.com",
         "tags": [
             "laravel",
             "MariaDB"
         ],
         "ins": "Freelance",
-        "url_ins": ""
+        "url_ins": "",
+        "active": true
     },
     {
         "name": "Pharmacy Management System",
         "nombre": "Sistema de Administración de Farmacia",
         "img": "assets/projects/pbuen-doctor.png",
-        "url": "https://el-buen-doctor.glyo.dev",
+        "url": "https://el-buen-doctor.garycdev.com",
         "tags": [
             "laravel",
             "MariaDB"
         ],
         "ins": "Freelance",
-        "url_ins": ""
+        "url_ins": "",
+        "active": true
     },
     {
         "name": "University payment platform UPEA",
@@ -86,6 +92,7 @@
             "Swagger"
         ],
         "ins": "UTIC - UPEA",
-        "url_ins": "https://utic.upea.bo"
+        "url_ins": "https://utic.upea.bo",
+        "active": false
     }
 ]

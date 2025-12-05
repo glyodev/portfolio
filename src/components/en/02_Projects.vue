@@ -10,13 +10,19 @@
             </h1>
             <p>My completed projects.</p>
             <div class="mt-4">
-              <div class="swiper-portfolio-prev button-circle cursor-link" @mouseenter="$store.commit('expandCursor')"
-                @mouseleave="$store.commit('expandCursorLeave')">
+              <div
+                class="swiper-portfolio-prev button-circle cursor-link"
+                @mouseenter="$store.commit('expandCursor')"
+                @mouseleave="$store.commit('expandCursorLeave')"
+              >
                 <i class="bi bi-arrow-left"></i>
                 <i class="bi bi-arrow-left"></i>
               </div>
-              <div class="swiper-portfolio-next button-circle cursor-link" @mouseenter="$store.commit('expandCursor')"
-                @mouseleave="$store.commit('expandCursorLeave')">
+              <div
+                class="swiper-portfolio-next button-circle cursor-link"
+                @mouseenter="$store.commit('expandCursor')"
+                @mouseleave="$store.commit('expandCursorLeave')"
+              >
                 <i class="bi bi-arrow-right"></i>
                 <i class="bi bi-arrow-right"></i>
               </div>
@@ -24,27 +30,52 @@
           </div>
         </div>
         <div class="swiper portfolio-slider mt-4 mt-lg-5">
-          <Swiper :modules="modules" class="swiper-wrapper" :slides-per-view="slidesPerView" :breakpoints="breakpoints"
+          <Swiper
+            :modules="modules"
+            class="swiper-wrapper"
+            :slides-per-view="slidesPerView"
+            :breakpoints="breakpoints"
             :navigation="{
               prevEl: '.swiper-portfolio-prev',
               nextEl: '.swiper-portfolio-next',
-            }" :pagination="{
+            }"
+            :pagination="{
               el: '.portfolio-swiper-pagination',
               clickable: true,
-            }">
-            <swiper-slide class="swiper-slide" v-for="(pro, id_pro) of projects.slice().reverse()" :key="id_pro">
+            }"
+          >
+            <swiper-slide
+              class="swiper-slide"
+              v-for="(pro, id_pro) of projects.slice().reverse()"
+              :key="id_pro"
+              :style="pro.active ? '' : 'display:none;'"
+            >
               <div class="portfolio-box">
                 <div class="portfolio-img">
-                  <a v-if="pro.url_ins" :href="pro.url_ins ? pro.url_ins : 'javascript:;'" target="_blank"
-                    class="badge bg-light text-black position-absolute m-3" style="z-index: 9" aria-disabled="true">
+                  <a
+                    v-if="pro.url_ins"
+                    :href="pro.url_ins ? pro.url_ins : 'javascript:;'"
+                    target="_blank"
+                    class="badge bg-light text-black position-absolute m-3"
+                    style="z-index: 9"
+                    aria-disabled="true"
+                  >
                     {{ pro.ins }}
                   </a>
-                  <span v-else class="badge bg-light text-black position-absolute m-3" style="z-index: 9"
-                    aria-disabled="true">
+                  <span
+                    v-else
+                    class="badge bg-light text-black position-absolute m-3"
+                    style="z-index: 9"
+                    aria-disabled="true"
+                  >
                     {{ pro.ins }}
                   </span>
-                  <a :href="pro.url" target="_blank" @mouseenter="$store.commit('expandCursor')"
-                    @mouseleave="$store.commit('expandCursorLeave')">
+                  <a
+                    :href="pro.url"
+                    target="_blank"
+                    @mouseenter="$store.commit('expandCursor')"
+                    @mouseleave="$store.commit('expandCursorLeave')"
+                  >
                     <img :src="require('@/' + pro.img)" alt="" />
                   </a>
                 </div>

@@ -8,13 +8,13 @@
         "periodo": "2020 - actual",
         "inst": [
             {
-                "url": "https://www.upea.bo",
+                "url": "https://www.upea.edu.bo",
                 "icon": "assets/training/upea.png",
                 "name": "Public University of El Alto",
                 "nombre": "Universidad Pública de El Alto"
             },
             {
-                "url": "https://sistemas.upea.bo",
+                "url": "https://sistemas.upea.edu.bo",
                 "icon": "assets/training/sistemas.png",
                 "name": "Systems Engineering",
                 "nombre": "Ingeniería de sistemas"
